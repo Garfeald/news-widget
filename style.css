@@ -161,6 +161,10 @@ body{
     .conteiner-active{
         margin: 5% 0%;
     }
+    
+    .img-block{
+        width: 60%;
+    }
 }
 
 /* --------------- */
