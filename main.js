@@ -1,6 +1,6 @@
 
-// const apiKey = '4dbc17e007ab436fb66416009dfb59a8';
-const apiKey = '7878eaa2b917400fbc0b81e516b55e6b';
+const apiKey = '4dbc17e007ab436fb66416009dfb59a8';
+// const apiKey = '7878eaa2b917400fbc0b81e516b55e6b';
 // const apiKey = '295c6b46f60d41d18d38545d6281f15f';
 // const apiKey = '279ea6339b4c42cb99b8d3f02219d9d7';
 
@@ -71,12 +71,12 @@ const renderContent = (response) => {
           <div class="img-block">
             <img src="${dataFields.urlToImage}" class="img" />
           </div>
-          <div id="${index + dataFields.author}" class="text-block" onclick="readMessage('${index}', '${index + dataFields.author}')">
-            <p><b id="">Title:</b> ${dataFields.title}</p>
-            <p><b>Author:</b> ${dataFields.author}</p>
-            <div><b>Details: </b><a href="${dataFields.url}">ShowDetails</a></div>
-            <p><b>Date:</b> ${fixedDate}</p>
-            <div class="status">
+            <div id="${index + dataFields.author}" class="text-block" onclick="readMessage('${index}', '${index + dataFields.author}')">
+              <p><b id="">Title:</b> ${dataFields.title}</p>
+              <p><b>Author:</b> ${dataFields.author}</p>
+              <div><b>Details: </b><a href="${dataFields.url}">ShowDetails</a></div>
+              <p><b>Date:</b> ${fixedDate}</p>
+              <div class="status">
               <b>Status:</b>
               <p id="${index}" class="status__text">Not Viewed!</p>
             </div>
@@ -90,6 +90,7 @@ const renderContent = (response) => {
 
       `
       document.getElementById('block-message').innerHTML = messageIconContent;
+      console.log(articles)
   })
   document.getElementById('conteiner').innerHTML = conteinerContent;
 }
