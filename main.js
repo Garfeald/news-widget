@@ -90,7 +90,6 @@ const renderContent = (response) => {
 
       `
       document.getElementById('block-message').innerHTML = messageIconContent;
-      console.log(articles)
   })
   document.getElementById('conteiner').innerHTML = conteinerContent;
 }
