@@ -92,6 +92,10 @@ body{
     border-radius: 10px
 }
 
+.img:hover{
+    transform: scale(5);
+    z-index: 2000;
+
 .text-block{
     max-width: 350px;
     cursor: pointer;
