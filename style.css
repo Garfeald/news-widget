@@ -89,7 +89,8 @@ body{
 .img{
     min-height: 100px;
     max-width: 150px;
-    border-radius: 10px
+    border-radius: 10px;
+    transition: all 0.7s ease-out;
 }
 
 .img:hover{
