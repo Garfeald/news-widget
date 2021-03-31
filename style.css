@@ -94,7 +94,8 @@ body{
 
 .img:hover{
     transform: scale(5);
-    z-index: 2000;
+    z-index: 2500;
+}
 
 .text-block{
     max-width: 350px;
