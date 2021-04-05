@@ -9,8 +9,8 @@ body{
 }
 
 .root{
-    width: 100%; 
-    height: 1000px; 
+    width: 100%;
+    min-height: 500px; 
     display: flex; 
 }
 
@@ -90,12 +90,14 @@ body{
     min-height: 100px;
     max-width: 150px;
     border-radius: 10px;
+    cursor: pointer;
     transition: all 0.7s ease-out;
 }
 
 .img:hover{
-    transform: scale(5);
+    transform: scale(4);
     z-index: 2500;
+    margin-left: 200px !important;
 }
 
 .text-block{
@@ -160,14 +162,14 @@ body{
 
     .block-message{
         position: fixed;
-        margin: 90% 0 0 2%;
+        margin: 140% 0 0 5%;
         cursor: pointer;
     }
 
     .conteiner-active{
         margin: 5% 0%;
     }
-    
+
     .img-block{
         width: 60%;
     }
