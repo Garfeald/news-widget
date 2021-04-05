@@ -48,7 +48,7 @@ const readMessage = (id, blockId) => {
 // !! функция запроса списка новостей !! //
 
 function requestNews() {
-  fetch(`http://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=${apiKey}`,
+  fetch(`https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=${apiKey}`,
     new Headers({
     'Upgrade-Insecure-Requests': '1'
     }),
