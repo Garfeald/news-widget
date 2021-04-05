@@ -48,7 +48,7 @@ const readMessage = (id, blockId) => {
 // !! функция запроса списка новостей !! //
 
 function requestNews() {
-  fetch(`https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=${apiKey}`)
+  fetch(`http://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=${apiKey}`)
     .then((response) => {
       return response.json();
     })
